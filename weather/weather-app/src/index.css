@@ -1,0 +1,70 @@
+:root {
+	--primary: #D81E5B;
+	--secondary: #8A4EFC;
+	--light: #EEE;
+	--light-alt: #61759b;
+	--dark: #131A26;
+	--dark-alt: #202B3E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans
+}
+
+body {
+	background-color: var(--dark-alt);
+	color: var(--light);
+}
+
+.App {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--light-alt);
+  display:flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 25%;
+  height: 50px;
+  border-radius:15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
