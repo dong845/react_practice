@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-video {
+    background: url('./assets/galaxy.mp4');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
